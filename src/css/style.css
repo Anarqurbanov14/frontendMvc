@@ -813,3 +813,182 @@
   height: 100%;
   object-fit: cover;
 }
+.signin__menu {
+  height: 450px;
+}
+.signin__menu__title {
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.signin__wrapper {
+  padding: 30px 30px 0 30px;
+  height: 280px;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1.5px solid gray;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.signin__menu__title {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  color: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.signin__wrapper__item {
+  padding-bottom: 25px;
+}
+.signin__wrapper__item .signin__wrapper__item__form {
+  height: 40px;
+  width: 280px;
+  background-color: orange;
+  border-radius: 4px;
+  background-color: #eae4e4;
+}
+.signin__wrapper__item .signin__wrapper__item__form__input {
+  margin-left: 1px;
+  border: none;
+  height: 40px;
+  width: 200px;
+  background-color: orange;
+  background-color: #eae4e4;
+}
+.show__btn {
+  background-color: rgb(150, 148, 148);
+  border: none;
+  height: 40px;
+  width: 74px;
+  color: #fff;
+}
+
+.signin__text {
+  text-align: center;
+}
+.signin__formfooter {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+.signin__formfooter button {
+  display: block;
+  margin: 0 auto;
+  height: 30px;
+  width: 80px;
+  font-size: 11px;
+  background-color: #000;
+  color: #fff;
+}
+.signin__end {
+  display: flex;
+  justify-content: center;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+.accaunt {
+  height: 1200px;
+}
+.accaunt__title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 27px;
+}
+.accaunt__wrapper {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 30px 30px 30px 0;
+  width: 600px;
+  height: 1000px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 30px 20px 0 20px;
+}
+.accaunt__wrapper .accaunt__wrapper__title {
+  padding-bottom: 30px;
+  font-size: 13px;
+}
+.accaunt__p {
+  font-size: 15px;
+  color: #666;
+}
+.accaunt__footer {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+
+  margin-bottom: 10px;
+}
+.accaunt__footer .accaunt__footer__box {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.accaunt__footer__box form {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+}
+.accaunt__form {
+  height: 40px;
+  width: 280px;
+  background-color: orange;
+  border-radius: 4px;
+  background-color: #eae4e4;
+}
+.accaunt__form input {
+  padding-left: 10px;
+}
+.accaunt__button {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  height: 50px;
+  width: 100px;
+  background-color: #000000;
+  text-align: center;
+  color: #fff;
+}
+
+.forgot {
+  background-color: yellow;
+  height: 380px;
+}
+.forgot__title {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: #000000;
+}
+.forgot__subtitle {
+  color: #2a2a2a;
+  font-size: 15px;
+}
+.forgot__wrapper {
+  height: 200px;
+  border: 1px solid black;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 30px 0 30px;
+}
+.forgot__descr {
+  display: block;
+  margin: 0 auto;
+}
